@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Neon Unlock Wallpaper</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      height: 100vh;
+      overflow: hidden;
+      background: #05000a;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: Arial, sans-serif;
+    }
+
+    .neon {
+      text-align: center;
+      color: white;
+      font-size: 42px;
+      font-weight: bold;
+      letter-spacing: 4px;
+      text-shadow:
+        0 0 5px #00ffff,
+        0 0 15px #00ffff,
+        0 0 30px #ff00ff,
+        0 0 60px #ff00ff;
+      animation: glow 2s infinite alternate;
+    }
+
+    .sub {
+      margin-top: 15px;
+      font-size: 14px;
+      letter-spacing: 3px;
+      color: #00ffff;
+    }
+
+    @keyframes glow {
+      from {
+        transform: scale(1);
+      }
+      to {
+        transform: scale(1.05);
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div>
+    <div class="neon">ZERO VXN</div>
+    <div class="sub">NEON UNLOCK</div>
+  </div>
+
+</body>
+</html>
